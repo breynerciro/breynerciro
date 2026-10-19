@@ -14,17 +14,17 @@ export const ui = {
     'hero.greeting': 'Hola, soy',
     'hero.name': 'Breyner Ciro',
     'hero.role': 'Ingeniero de Sistemas / FullStack',
-    'hero.subtitle': 'Especializado en arquitecturas de microservicios, bases de datos relacionales y despliegues (AWS, Docker)',
+    'hero.subtitle': 'Construyo producto SaaS de punta a punta (Vue, React, Node.js, GCP/AWS) e integro IA en flujos reales de negocio',
     'hero.cta': 'Ver proyectos',
     'hero.cta secondary': 'Contactar',
 
     // About
     'about.title': 'Sobre mí',
-    'about.p1': 'Ingeniero de Sistemas y Computación con sólida experiencia en el diseño y desarrollo de aplicaciones web y móviles escalables. Capacidad demostrada para trabajar en todo el ciclo de vida del software, adaptándome ágilmente a roles Frontend, Backend y FullStack.',
-    'about.p2': 'Especializado en la construcción de arquitecturas de microservicios, optimización de bases de datos relacionales y despliegues automatizados en la nube (AWS, Docker). Apasionado por las buenas prácticas (Clean Code), la integración de APIs y el desarrollo de interfaces de usuario eficientes y responsivas.',
+    'about.p1': 'Ingeniero de Sistemas y Computación (Universidad Nacional de Colombia) que construye producto SaaS de punta a punta: frontend en Vue y React con TypeScript, backends en Node.js y Python, y datos en Firestore, PostgreSQL y BigQuery sobre GCP y AWS.',
+    'about.p2': 'Hoy integro LLMs (Claude, Gemini) en flujos reales de negocio en una plataforma logística. Trabajo con pruebas automatizadas, despliegues en contenedores y buenas prácticas (Clean Code).',
     'about.stat experience': 'Años de experiencia',
-    'about.stat projects': 'Proyectos completados',
-    'about.stat clients': 'Clientes satisfechos',
+    'about.stat projects': 'Proyectos destacados',
+    'about.stat clients': 'Menos tiempo de sincronización de datos en producción',
 
     // Skills
     'skills.title': 'Habilidades',
@@ -32,6 +32,7 @@ export const ui = {
     'skills.databases': 'Bases de Datos',
     'skills.frontend': 'Frontend & UI',
     'skills.devops': 'DevOps & Cloud',
+    'skills.ai': 'IA Aplicada',
     'skills.methods': 'Metodologías',
     'skills.languages': 'Idiomas',
 
@@ -44,6 +45,8 @@ export const ui = {
     'projects.title': 'Proyectos Destacados',
     'projects.viewLive': 'Ver demo',
     'projects.viewCode': 'Ver código',
+    'projects.caseStudy': 'Ver caso de estudio',
+    'projects.back': '← Volver a proyectos',
     'projects.stack': 'Stack',
 
     // Education
@@ -93,17 +96,17 @@ export const ui = {
     'hero.greeting': "Hi, I'm",
     'hero.name': 'Breyner Ciro',
     'hero.role': 'Systems Engineer / FullStack',
-    'hero.subtitle': 'Specialized in microservices architectures, relational databases, and deployments (AWS, Docker)',
+    'hero.subtitle': 'I build SaaS products end to end (Vue, React, Node.js, GCP/AWS) and bring AI into real business workflows',
     'hero.cta': 'View projects',
     'hero.cta secondary': 'Contact me',
 
     // About
     'about.title': 'About Me',
-    'about.p1': 'Systems and Computing Engineer with solid experience in designing and developing scalable web and mobile applications. Proven ability to work across the entire software development lifecycle, adapting agilely to Frontend, Backend, and FullStack roles.',
-    'about.p2': 'Specialized in building microservices architectures, optimizing relational databases, and automated cloud deployments (AWS, Docker). Passionate about best practices (Clean Code), API integration, and developing efficient and responsive user interfaces.',
+    'about.p1': 'Systems and Computing Engineer (Universidad Nacional de Colombia) who builds SaaS products end to end: Vue and React frontends with TypeScript, Node.js and Python backends, and data in Firestore, PostgreSQL and BigQuery on GCP and AWS.',
+    'about.p2': 'Today I integrate LLMs (Claude, Gemini) into real business workflows on a logistics platform. I work with automated tests, container deployments and good practices (Clean Code).',
     'about.stat experience': 'Years of experience',
-    'about.stat projects': 'Projects completed',
-    'about.stat clients': 'Satisfied clients',
+    'about.stat projects': 'Featured projects',
+    'about.stat clients': 'Less data sync time in production',
 
     // Skills
     'skills.title': 'Skills',
@@ -111,6 +114,7 @@ export const ui = {
     'skills.databases': 'Databases',
     'skills.frontend': 'Frontend & UI',
     'skills.devops': 'DevOps & Cloud',
+    'skills.ai': 'Applied AI',
     'skills.methods': 'Methodologies',
     'skills.languages': 'Languages',
 
@@ -123,6 +127,8 @@ export const ui = {
     'projects.title': 'Featured Projects',
     'projects.viewLive': 'Live demo',
     'projects.viewCode': 'View code',
+    'projects.caseStudy': 'Read case study',
+    'projects.back': '← Back to projects',
     'projects.stack': 'Stack',
 
     // Education
@@ -172,17 +178,17 @@ export const ui = {
     'hero.greeting': 'Olá, eu sou',
     'hero.name': 'Breyner Ciro',
     'hero.role': 'Engenheiro de Sistemas / FullStack',
-    'hero.subtitle': 'Especializado em arquiteturas de microsserviços, bancos de dados relacionais e implantações (AWS, Docker)',
+    'hero.subtitle': 'Construo produtos SaaS de ponta a ponta (Vue, React, Node.js, GCP/AWS) e integro IA em fluxos reais de negócio',
     'hero.cta': 'Ver projetos',
     'hero.cta secondary': 'Entrar em contato',
 
     // About
     'about.title': 'Sobre Mim',
-    'about.p1': 'Engenheiro de Sistemas e Computação com sólida experiência em design e desenvolvimento de aplicações web e móveis escaláveis. Capacidade comprovada para trabalhar em todo o ciclo de vida do software, adaptando-me agilmente a funções Frontend, Backend e FullStack.',
-    'about.p2': 'Especializado na construção de arquiteturas de microsserviços, otimização de bancos de dados relacionais e implantações automatizadas na nuvem (AWS, Docker). Apaixonado por boas práticas (Clean Code), integração de APIs e desenvolvimento de interfaces de usuário eficientes e responsivas.',
+    'about.p1': 'Engenheiro de Sistemas e Computação (Universidad Nacional de Colombia) que constrói produtos SaaS de ponta a ponta: frontend em Vue e React com TypeScript, backends em Node.js e Python, e dados em Firestore, PostgreSQL e BigQuery no GCP e AWS.',
+    'about.p2': 'Hoje integro LLMs (Claude, Gemini) em fluxos reais de negócio em uma plataforma logística. Trabalho com testes automatizados, implantações em contêineres e boas práticas (Clean Code).',
     'about.stat experience': 'Anos de experiência',
-    'about.stat projects': 'Projetos concluídos',
-    'about.stat clients': 'Clientes satisfeitos',
+    'about.stat projects': 'Projetos em destaque',
+    'about.stat clients': 'Menos tempo de sincronização de dados em produção',
 
     // Skills
     'skills.title': 'Habilidades',
@@ -190,6 +196,7 @@ export const ui = {
     'skills.databases': 'Bancos de Dados',
     'skills.frontend': 'Frontend & UI',
     'skills.devops': 'DevOps & Cloud',
+    'skills.ai': 'IA Aplicada',
     'skills.methods': 'Metodologias',
     'skills.languages': 'Idiomas',
 
@@ -202,6 +209,8 @@ export const ui = {
     'projects.title': 'Projetos em Destaque',
     'projects.viewLive': 'Demo ao vivo',
     'projects.viewCode': 'Ver código',
+    'projects.caseStudy': 'Ver estudo de caso',
+    'projects.back': '← Voltar aos projetos',
     'projects.stack': 'Stack',
 
     // Education

@@ -16,8 +16,8 @@ interface Props {
 
 const {
   locale = defaultLocale,
-  title = 'Breyner Ciro — Desarrollador FullStack Senior',
-  description = 'Portafolio profesional de Breyner Ciro, Desarrollador FullStack Senior especializado en Node.js, Vue.js y bases de datos relacionales.',
+  title = 'Breyner Ciro — Ingeniero de Software FullStack',
+  description = 'Portafolio de Breyner Ciro, ingeniero de software FullStack: producto SaaS con Vue, React, Node.js y GCP/AWS, e IA aplicada a flujos reales de negocio.',
   ogImage,
   canonicalPath = '/',
 } = Astro.props;
@@ -40,6 +40,22 @@ const seo = buildSEO(
     <meta name="description" content={seo.description} />
     <meta name="author" content="Breyner Ciro" />
 
+    <meta name="theme-color" content="#0a0a0a" />
+    <meta property="og:site_name" content="Breyner Ciro" />
+    <script type="application/ld+json" set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Person',
+      name: 'Breyner Ismael Ciro Otero',
+      alternateName: 'Breyner Ciro',
+      jobTitle: 'FullStack Software Engineer',
+      url: 'https://breynerciro.github.io',
+      sameAs: ['https://github.com/breynerciro', 'https://www.linkedin.com/in/breyner-ciro-38011330b/'],
+      alumniOf: { '@type': 'CollegeOrUniversity', name: 'Universidad Nacional de Colombia' },
+      worksFor: { '@type': 'Organization', name: 'Kila' },
+      address: { '@type': 'PostalAddress', addressLocality: 'Bogotá', addressCountry: 'CO' },
+      knowsAbout: ['TypeScript', 'Vue', 'React', 'Node.js', 'Google Cloud', 'LLM'],
+    })} />
+
     <!-- Canonical -->
     <link rel="canonical" href={seo.canonical} />
 
@@ -49,6 +65,8 @@ const seo = buildSEO(
     <meta property="og:title" content={seo.title} />
     <meta property="og:description" content={seo.description} />
     <meta property="og:image" content={seo.ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="og:locale" content={locale === 'es' ? 'es_CO' : locale === 'pt' ? 'pt_BR' : 'en_US'} />
 
     <!-- Twitter -->
@@ -70,7 +88,7 @@ const seo = buildSEO(
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;700;800&display=swap"
       rel="stylesheet"
     />
 
@@ -81,9 +99,10 @@ const seo = buildSEO(
   </head>
 
   <body class="min-h-screen bg-bg text-text antialiased">
+    <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:left-2 focus:top-2 focus:z-50 focus:bg-[#4ade80] focus:px-3 focus:py-2 focus:text-black">Skip to content</a>
     <Header locale={locale} />
 
-    <main>
+    <main id="main">
       <slot />
     </main>
 

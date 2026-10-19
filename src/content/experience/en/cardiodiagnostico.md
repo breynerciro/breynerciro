@@ -11,8 +11,7 @@ endDate: 2024-08-31
 current: false
 tags: ['React', 'TypeScript', 'Tailwind CSS', 'Vite']
 highlights:
-  - 'Built a Single Page Application (SPA) for the health sector using React and TypeScript, ensuring robust, scalable, and strongly-typed code.'
-  - 'Designed a modern and 100% responsive interface with Tailwind CSS, ensuring optimal display of services on both mobile and desktop devices.'
-  - 'Implemented direct communication channels and optimized patient appointment scheduling through interactive forms and WhatsApp API integration.'
-  - 'Managed the build and production deployment by structuring an optimized bundle with Vite and deploying the website on Hostinger.'
+  - 'Built the institutional website of a cardiology clinic (IPS) as a Single Page Application with React and TypeScript (services, financial statements and contact), with strongly typed code.'
+  - 'Built a 100% responsive interface with Tailwind CSS and handled the production release with Vite and deployment on Hostinger.'
+  - 'Made appointment scheduling easier with a WhatsApp button (pre-filled message) and a contact form backed by our own Node.js/Express service that sends messages by email.'
 ---

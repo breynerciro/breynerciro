@@ -11,7 +11,7 @@ endDate: 2024-12-31
 current: false
 tags: ['Docker', 'CI/CD', 'GitHub Actions', 'PostgreSQL']
 highlights:
-  - 'Escalé la capacidad de procesamiento concurrente de solicitudes por minuto (validado en pruebas de carga e hiper-estrés) mediante la integración de arquitecturas SPA con backends relacionales.'
-  - 'Eliminé las discrepancias de entorno entre desarrollo y producción, logrando cero incidentes de despliegue, al crear configuraciones reproducibles con Docker y docker-compose.'
-  - 'Automaticé los flujos de trabajo de integración y entrega continua implementando canalizaciones en GitHub Actions.'
+  - 'Integré SPAs con backends relacionales y validé su comportamiento bajo concurrencia con pruebas de carga y estrés.'
+  - 'Estandaricé los entornos de desarrollo y producción con configuraciones reproducibles en Docker y docker-compose.'
+  - 'Automaticé los flujos de integración y entrega continua con canalizaciones en GitHub Actions.'
 ---

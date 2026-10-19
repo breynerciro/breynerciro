@@ -11,8 +11,7 @@ endDate: 2024-08-31
 current: false
 tags: ['React', 'TypeScript', 'Tailwind CSS', 'Vite']
 highlights:
-  - 'Construí uma Single Page Application (SPA) para o setor de saúde usando React e TypeScript, garantindo código robusto, escalável e fortemente tipado.'
-  - 'Projetei uma interface moderna e 100% responsiva com Tailwind CSS, garantindo exibição ideal de serviços em dispositivos móveis e desktop.'
-  - 'Implementei canais de comunicação direta e otimizei o agendamento de consultas de pacientes por meio de formulários interativos e integração com a API do WhatsApp.'
-  - 'Gerenciei a construção e implantação em produção estruturando um pacote otimizado com Vite e hospedando o site no Hostinger.'
+  - 'Construí o site institucional de uma clínica de cardiologia (IPS) como Single Page Application com React e TypeScript (serviços, demonstrações financeiras e contato), com código fortemente tipado.'
+  - 'Desenvolvi uma interface 100% responsiva com Tailwind CSS e conduzi a publicação em produção com Vite e implantação na Hostinger.'
+  - 'Facilitei o agendamento de consultas com um botão de WhatsApp (mensagem pré-preenchida) e um formulário de contato com backend próprio em Node.js/Express que envia as mensagens por e-mail.'
 ---

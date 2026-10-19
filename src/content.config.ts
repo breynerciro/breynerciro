@@ -23,6 +23,7 @@ const projects = defineCollection({
     stack: z.array(z.string()).default([]),
     demoUrl: z.url().optional(),
     repoUrl: z.url().optional(),
+    extraRepos: z.array(z.object({ label: z.string(), url: z.url() })).default([]),
     featured: z.boolean().default(false),
     coverImage: z.string().optional(),
   }),
