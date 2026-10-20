@@ -1,10 +1,10 @@
 # Breyner Ciro — Portafolio Personal
 
-> 🌐 **Visita el sitio:** **[https://breynerciro.github.io](https://breynerciro.github.io)**
+> 🌐 **Visita el sitio:** **[https://breynerciro.github.io](https://breynerciro.github.io/breynerciro)**
 
 Portafolio profesional de **Breyner Ciro**, Desarrollador FullStack — construido con **Astro 7**, **Tailwind CSS v4** y desplegado en **GitHub Pages**.
 
-[![Sitio en vivo](https://img.shields.io/badge/🌐_Sitio_en_vivo-breynerciro.github.io-blue?style=for-the-badge)](https://breynerciro.github.io)
+[![Sitio en vivo](https://img.shields.io/badge/🌐_Sitio_en_vivo-breynerciro.github.io-blue?style=for-the-badge)](https://breynerciro.github.io/breynerciro)
 
 ---
 
